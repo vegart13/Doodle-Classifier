@@ -9,3 +9,5 @@ This is an introductory project developed by Daniel Shiffman on his youtube chan
 [The Coding Train Playlist](https://www.youtube.com/watch?v=pqY_Tn2SIVA&list=PLRqwX-V7Uu6Zs14zKVuTuit6jApJgoYZQ)
 
 [Software List](https://github.com/vegart13/DoodleClassifier/blob/master/Software.md)
+
+[Lisense](https://github.com/vegart13/DoodleClassifier/blob/master/LICENSE)
