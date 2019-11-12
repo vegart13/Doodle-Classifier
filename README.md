@@ -2,7 +2,7 @@
 
 About
 ----------
-This is an introductory project developed by Daniel Shiffman on his youtube channel "The Coding Train". The purpose of this project is to get more familiar with machine learning through a relatively small scale project. It uses the "Quick, Draw!" dataset from Google Creative Labs, a collection of 50 million drawings across 345 categories all gathered through a service that collects user drawings and tags them with the appropriate metadata (https://quickdraw.withgoogle.com/).
+This is an introductory project originally developed by Daniel Shiffman on his youtube channel "The Coding Train". The purpose of this project is to get more familiar with machine learning through a relatively small scale project. It uses the "Quick, Draw!" dataset from Google Creative Labs, a collection of 50 million drawings across 345 categories all gathered through a service that collects user drawings and tags them with the appropriate metadata (https://quickdraw.withgoogle.com/).
 
 Setup
 ----------
