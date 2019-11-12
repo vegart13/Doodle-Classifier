@@ -1,1 +1,9 @@
 # DoodleClassifier
+
+Introduction
+
+Purpose
+
+
+Setupguide
+
