@@ -10,4 +10,4 @@ This is an introductory project developed by Daniel Shiffman on his youtube chan
 
 [Software List](https://github.com/vegart13/DoodleClassifier/blob/master/Software.md)
 
-[Lisense](https://github.com/vegart13/DoodleClassifier/blob/master/LICENSE)
+[License](https://github.com/vegart13/DoodleClassifier/blob/master/LICENSE)
