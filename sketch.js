@@ -10,6 +10,13 @@ let clocks_object = {};
 let frogs_object = {};
 let mona_object = {};
 
+const APPLE = 0;
+const BEE = 1;
+const CLOCK = 2;
+const FROG = 3;
+const MONA = 4;
+
+let NN; //Neural Network by Daniel Shiffman May the Gods bless this man
 
 const len = 784;
 const total_data = 1000;
@@ -24,7 +31,7 @@ function preload(){
 }
 
 
-function viewImages(){
+/* function viewImages(){
   let total = 100;
   for (let n = 0; n < total; n++){
     let img = createImage(28,28);
@@ -44,22 +51,47 @@ function viewImages(){
     let y = floor(n/10) * 28;
     image(img,x,y);
   }
-}
+} */
 
 function setup() {
 createCanvas(280,280);
-background(0);
-viewImages();
+background(255);
+//viewImages();
 
-prepareData(apples_object,apples);
-prepareData(frogs_object,frogs);
-prepareData(clocks_object, clocks);
-prepareData(mona_object,mona);
-prepareData(bees_object,bees);
+prepareData(apples_object,apples, APPLE);
+prepareData(frogs_object,frogs, FROG);
+prepareData(clocks_object, clocks, CLOCK);
+prepareData(mona_object,mona, MONA);
+prepareData(bees_object,bees, BEE);
+NN = new NeuralNetwork(784, 64, 5);//784 inputs, 64 hidden nodes, and 5 outputs, 1 output for each category
 
+//Train to learn about category
+let trainingArray = [];
+trainingArray = trainingArray.concat(mona_object.training);
+trainingArray = trainingArray.concat(bees_object.training);
+trainingArray = trainingArray.concat(clocks_object.training);
+trainingArray = trainingArray.concat(frogs_object.training);
+trainingArray = trainingArray.concat(apples_object.training);
+
+shuffle(trainingArray,true);
+//console.log(trainingArray);
+//Train for one epoch
+for (let i = 0; i < trainingArray.length;i++){
+  let inputs = [];
+  let data = trainingArray[i];
+  
+  for(let j = 0; j< data.length;j++){
+    inputs[j] = data[j] / 255.0; //Normalize Data
+  }
+  let label = trainingArray[i].label;
+  let targets = [0,0,0,0,0];
+  targets[label] = 1;
+  NN.train(inputs,targets);
+  
+}
 }
 
-function prepareData(category, data){
+function prepareData(category, data, label){
   category.training = [];
   category.testing = [];
 
@@ -68,8 +100,11 @@ function prepareData(category, data){
     let threshold = floor(0.8 * total_data);
     if(i < threshold){
       category.training[i] = data.bytes.subarray(offset, offset + len);
+      category.training[i].label = label;
     } else {
       category.testing[i-threshold] = data.bytes.subarray(offset, offset +len);
+      category.testing[i-threshold].label = label;
+
     }
   }
 }
