@@ -59,8 +59,8 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-Data from https://quickdraw.withgoogle.com/data
-P5 Framework https://p5js.org/
+Data from https://quickdraw.withgoogle.com/data <br>
+P5 Framework https://p5js.org/ <br>
 Libary by Daniel shiffman https://github.com/CodingTrain/Toy-Neural-Network-JS/tree/master/lib
 ## Contributing
 
