@@ -8,10 +8,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-Code Editor(Visual Studio/ATOM was used by us)
-Data from https://quickdraw.withgoogle.com/data
+<p>What things you need to install the software and how to install them<br>
+Code Editor(Visual Studio/ATOM was used by us)<br>
+Data from https://quickdraw.withgoogle.com/data<br>
 Node.js
+<br>
+</p>
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
