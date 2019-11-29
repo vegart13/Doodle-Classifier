@@ -69,7 +69,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Vegard Marvik**    **Vegard Trydal**  **Xohan Otero Barbosa**   - *Daniel Shiffman* - https://www.youtube.com/user/shiffman
+* **Vegard Marvik** - **Vegard Trydal** - **Xohan Otero Barbosa**   - *Daniel Shiffman* - https://www.youtube.com/user/shiffman
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
