@@ -1,20 +1,20 @@
-Project Title
-Doodleclassifier UiA
+<H2>Doodleclassifier UiA<H2>
 
-Getting Started
+<H2>Getting Started<H2>
+
 Xohan skriv
 
-Prerequisites
+<H2>Prerequisites<H2>
 Node.js
 Code editor (We used Visual Studio/ATOM)
 Data from https://quickdraw.withgoogle.com/data
 
 
-Installing
+<H2>Installing<H2>
 Step by step guide and maybe some data at the end. 
 Xohan
 
-Running the tests
+<H2>Running the tests<H2>
 Explain how to run the automated tests for this system
 
 Break down into end to end tests
@@ -25,10 +25,10 @@ And coding style tests
 Explain what these tests test and why
 
 Give an example
-Deployment
+<H2>Deployment<H2>
 Add additional notes about how to deploy this on a live system
 
-Built With
+<H2>Built With<H2>
 Dropwizard - The web framework used
 Maven - Dependency Management
 ROME - Used to generate RSS Feeds
@@ -36,13 +36,13 @@ Contributing
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
 
-Authors
+<H2>Authors<H2>
 Vegard Marvik -Vegard Trydal - Xohan Otero Barbosa - Initial work - Daniel Shiffman
 
-License
+<H2>License<H2>
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-Acknowledgments
+<H2>Acknowledgments<H2>
 Hat tip to anyone whose code was used
 Inspiration
 etc
