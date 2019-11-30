@@ -7,4 +7,4 @@ Software used in project:
 
 [Quick, Draw! dataset](https://quickdraw.withgoogle.com/data)
 
-[Tensorflow](https://www.tensorflow.org/js/)
+
