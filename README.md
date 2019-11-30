@@ -26,60 +26,16 @@ Then cd into the project folder and run command: <br>
 `browser-sync start --server -f -w`<br>
 Then head in to localhost:3000 and open the console on your browser to see the model be trained for 5 epochs, and when it's done you can try to draw yourself in the canvas.
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
 Data from https://quickdraw.withgoogle.com/data <br>
 P5 Framework https://p5js.org/ <br>
 Libary by Daniel shiffman https://github.com/CodingTrain/Toy-Neural-Network-JS/tree/master/lib
-## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Vegard Marvik** - **Vegard Trydal** - **Xohan Otero Barbosa**   - *Daniel Shiffman* - https://www.youtube.com/user/shiffman
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **[Vegard Marvik](https://github.com/VMarvik)** - **[Vegard Trydal](https://github.com/vegart13)** - **[Xohan Otero Barbosa](https://github.com/galirousa)**   - *Daniel Shiffman* - https://www.youtube.com/user/shiffman
 
 ## License
 
@@ -87,10 +43,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
---
 [The Coding Train Playlist](https://www.youtube.com/watch?v=pqY_Tn2SIVA&list=PLRqwX-V7Uu6Zs14zKVuTuit6jApJgoYZQ)
 
 [Software List](https://github.com/vegart13/DoodleClassifier/blob/master/Software.md)
