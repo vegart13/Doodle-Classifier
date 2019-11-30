@@ -35,7 +35,7 @@ Libary by Daniel shiffman https://github.com/CodingTrain/Toy-Neural-Network-JS/t
 
 ## Authors
 
-* **[Vegard Marvik](https://github.com/VMarvik)** - **[Vegard Trydal](https://github.com/vegart13)** - **[Xohan Otero Barbosa](https://github.com/galirousa)**   - *Daniel Shiffman* - https://www.youtube.com/user/shiffman
+* **[Vegard Marvik](https://github.com/VMarvik)** - **[Vegard Trydal](https://github.com/vegart13)** - **[Xohan Otero Barbosa](https://github.com/galirousa)**   - *[Daniel Shiffman](https://github.com/shiffman)*
 
 ## License
 
