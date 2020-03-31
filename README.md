@@ -50,7 +50,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 [License](https://github.com/vegart13/DoodleClassifier/blob/master/LICENSE)
 
 
-##L icense< 
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
 
